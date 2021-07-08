@@ -69,6 +69,7 @@ class NameForm extends React.Component {
             <div>
             <span className="badge bg-secondary">{item.version_name}</span>
             <br/>
+            <small className="text-muted">{item.version_description}</small>
             <table className="table table-success table-striped" id='students'>
             <tbody>
             <tr>{this.renderTableHeader(item)}</tr>
