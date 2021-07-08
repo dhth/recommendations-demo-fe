@@ -62,7 +62,8 @@ class NameForm extends React.Component {
           </div>
         </form>
         {this.state.fetching &&
-            <p>fetching...</p>
+            <div className="spinner-border m-5" role="status">
+            </div>
         }
         {this.state.students.map((item) =>
 
