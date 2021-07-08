@@ -31,11 +31,11 @@ class NameForm extends React.Component {
 
     renderTableData(item) {
         return item.recommendations.map((student, index) => {
-            const { id, package_content, organisation_name} = student //destructuring
+            const { id, product_name, organisation_name} = student //destructuring
             return (
                 <tr key={id}>
                 <td>{id}</td>
-                <td>{package_content}</td>
+                <td>{product_name}</td>
                 <td>{organisation_name}</td>
                 </tr>
             )
