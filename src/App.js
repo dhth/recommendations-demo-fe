@@ -55,7 +55,7 @@ class NameForm extends React.Component {
         <h2>Recommendations</h2>
         <form className="row g-3" onSubmit={this.handleSubmit}>
           <div className="mb-3">
-          <input required type="text" className="form-control" placeholder="Shop product version ID" value={this.state.value} onChange={this.handleChange} />
+          <input required type="text" className="form-control" placeholder="Product Version ID" value={this.state.value} onChange={this.handleChange} />
           </div>
           <div className="col-auto">
             <button type="submit" className="btn btn-primary mb-3">Fetch recommendations</button>
